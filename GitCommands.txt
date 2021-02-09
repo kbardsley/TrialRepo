@@ -1,0 +1,16 @@
+Basic git commands:
+git status #checks current status of repository (are things up to date?)
+git add -A #adds altered and untracked files to staging area
+git commit -am 'message' #a = take all files in staging area and make commit with them
+							#m = message 'active present tense verb'
+							#ex: git commit -am 'modify and add gitignore'
+							#commit changes with message
+git push #takes changes made locally and new commit and push back up to github repository
+			#push commited changes up to GitHub
+git pull #pull any changes from GitHub down to local repo
+		#often good to start with this
+			
+.gitignore
+	plain text file that tells what to ignore
+	when saving changes to repo
+	
