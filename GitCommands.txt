@@ -9,6 +9,14 @@ git push #takes changes made locally and new commit and push back up to github r
 			#push commited changes up to GitHub
 git pull #pull any changes from GitHub down to local repo
 		#often good to start with this
+
+git log #tells gives you commit history
+git log --oneline #has each commit take up one line in output
+git log -3 #gives the last 3 commits
+git log -3 --oneline #does both
+git log -1 -p HEAD  #shows the changes that were made for most recent commit
+
+
 			
 .gitignore
 	plain text file that tells what to ignore
